@@ -1,0 +1,41 @@
+{
+  "name": "inok/dto",
+  "description": "DTO with Hydration for PDO",
+  "keywords": ["dto", "hydration", "pdo"],
+  "type": "library",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Nikolay Chizhov",
+      "email": "nchizhov@inok.ru",
+      "homepage": "http://blog.kgd.in",
+      "role": "System Administrator"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.6.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inok\\DTO\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Inok\\DTO\\Tests\\": "tests"
+    }
+  },
+  "license": "MIT",
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "scripts": {
+    "phpunit": "vendor/bin/phpunit"
+  }
+}
